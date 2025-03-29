@@ -19,5 +19,5 @@ def keep_workspace_active():
 
     print("\n✅ 24-hour keep-alive session completed.")
 
-if name == "main":
+if __name__ == "__main__":  # ✅ Corrected syntax
     keep_workspace_active()
